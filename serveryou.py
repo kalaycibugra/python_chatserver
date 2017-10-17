@@ -49,7 +49,7 @@ def clientHandler(element):
         sendMessage(datax)#for sending modified message to every client
 
 HOST = '127.0.0.1'#localhost
-PORT = 6789
+PORT = 6789 #a random port number
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)#creating a socket named s
 s.bind((HOST, PORT))#connect system's ip with the port
